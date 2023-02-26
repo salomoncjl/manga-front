@@ -1,0 +1,21 @@
+.cont-1{
+    background-image: url(../../images/backgroundHero.png);
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    width: 100vw;
+    height: 65vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+@media(min-width: 320px) and (max-width: 768px){
+  .cont-1{
+    background-image: url(../../images/backgroundmobile.png);
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+  }
+}

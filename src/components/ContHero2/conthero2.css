@@ -1,0 +1,14 @@
+.cont-2{
+    display: flex;
+    background-color: #EBEBEB;
+    width: 100vw;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(min-width: 320px) and (max-width: 768px){
+    .cont-2{
+      display: none;
+    }
+  }

@@ -1,0 +1,14 @@
+.cont-cart{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 4%;
+  }
+  .img-size1{
+    width: 28%;
+  
+  }
+  .img-size2{
+    width: 18%;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,24 @@
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 80px;
+  }
+  .img-menu{
+    width: 46px;
+  }
+  .img-logo{
+    width: 60px;
+  }
+  .img-menu-violet{
+    display: none
+  }
+
+  @media(min-width: 320px) and (max-width: 768px){
+    .img-menu-violet{
+      display: flex;
+    }
+    .img-menu{
+      display: none;
+    }
+  }

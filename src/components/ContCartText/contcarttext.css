@@ -1,0 +1,9 @@
+.cont-cart-text{
+    display: flex;
+    border-radius: 8px;
+    width: 85%;
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5E52F3;
+  }

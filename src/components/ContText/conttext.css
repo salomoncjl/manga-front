@@ -1,0 +1,64 @@
+.cont-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-top: 8%;
+  }
+  .h1-size{
+    font-size: 48px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .p-size{
+    display: flex;
+    font-size: 24px;
+    max-width: 500px;
+  }
+  .a-color{
+    background-color: #5E52F3 ;
+    overflow: visible;
+    font-size: 24px;
+    border-radius: 4px;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .a-color-2{
+    display: none;
+  }
+  .p-size-2{
+    display: none;
+  }
+  @media(min-width: 320px) and (max-width: 768px){
+    .cont-text{
+      margin-top: 25%;
+    }
+    .a-color-2{
+      display: flex;
+      background-color: #4338CA;
+      font-size: 24px;
+      border-radius: 50px;
+      width: 75%;
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      justify-content: center;
+      font-weight: bolder;
+    }
+    .a-color{
+      display: none;
+    }
+    .p-size-2{
+      display: flex;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .p-size{
+      display: none;
+    }
+  }
