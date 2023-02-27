@@ -6,9 +6,9 @@ import './herodad.css'
 
 export default function HeroDad() {
   return (
-    <>
+    <div>
         <ContHero1/>
         <ContHero2/>
-    </>
+    </div>
   )
 }
