@@ -1,0 +1,13 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.logo-complete{
+    width: 35%;
+}
+.text-reg{
+    width: 70%;
+    text-align: center;
+}
