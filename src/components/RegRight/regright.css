@@ -1,0 +1,14 @@
+.reg-right{
+    display: flex;
+    background-image: url(../../images/img-register.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+}
+@media(min-width: 320px) and (max-width: 768px){
+    .reg-right{
+        display: none;
+    }
+}

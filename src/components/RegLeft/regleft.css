@@ -1,0 +1,13 @@
+.reg-left{
+    display: flex;
+    background-color: #EBEBEB;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width: 320px) and (max-width: 768px){
+    .reg-left{
+        width: 100vw;
+    }
+}
