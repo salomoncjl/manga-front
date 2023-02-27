@@ -12,3 +12,6 @@
 
 /* Espacio para probar */
 
+body{
+  overflow-x: hidden;
+}
